@@ -1,0 +1,265 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* header */
+
+.main-header {
+    background-color: rgb(5, 5, 70);
+    font-size: 24px;
+    text-align: center;
+   
+    line-height: 2.8;
+
+}
+
+.link {
+    color: rgb(44, 231, 100);
+    padding: 15px;
+    text-decoration: none;
+    }
+
+.links {
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+}    
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    padding: 40px 0px;
+    line-height: 1.9;
+   
+}
+
+.para1 {
+    text-align: center;
+    font-size: 23px;
+    line-height: 1.7;
+
+    
+}
+
+.firstbox {
+      height: 150px;
+      width: 150px;
+      background-color: #99d8ca;
+      margin: 43px auto;
+      border: 6px solid #5873E2;
+      border-radius: 2PX;
+      outline: 8px solid #0D1430;
+      box-shadow: 0 0 0 24px #90FFA9;
+      
+    }
+
+.smallcontainer {
+    display: inline-block;
+    padding: 13px;
+    }  
+
+.smallcircle {
+    background-color: #99d8ca;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    
+}
+
+.section1 {
+    text-align: center;
+}
+
+.color1 {
+    background-color: #0D1430;
+}
+
+.color2 {
+    background-color: #90FFA9;
+
+}
+
+hr {
+    width: 1600px;
+    border-style: dotted;
+    border-color: cadetblue;
+}
+.big-container {
+    width: 660px;
+    border: 2px solid black;
+    margin: 24px auto;
+    font-size: 0px;
+   
+}
+
+.chotabox {
+    width: 200px;
+    height: 180px;
+    margin: 10px;
+    background-color: grey;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+
+.border {
+    border: 2px solid black;
+}
+
+
+
+
+
+
+
+/* styles for blog.html */
+
+.body {
+    margin-bottom: 500px;
+}
+.main {
+    width: 930px;
+    margin: 0 auto;
+   
+}
+
+.home {
+    color: white;
+}
+
+.blog {
+    color: rgb(44, 231, 100);;
+}
+ 
+
+
+.blogh2 {
+    font-size: 26PX;
+    color: rgb(5, 5, 70);
+    line-height: 1.3;
+    margin-bottom: 15px;
+    }
+
+.blogpara1 {
+    line-height: 1.3;
+    line-height: 1.3;
+}
+
+
+
+img {
+    width: 450px;
+    height: 350px;
+    
+}
+
+.blogdiv1 {
+    height: 350px;
+    width: 450px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 18px;
+    }
+
+.blogarticle1 {
+    margin: 40px 0;
+}
+
+button {
+    color: white;
+    background-color: green;
+    border: 5px solid green;
+    font-size: 19px;
+    margin: 20px 0;
+   border-radius: 20px;
+}
+
+.blogsection1 {
+        width: 1000px;
+        }
+
+
+
+.learnmore {
+        color: green;
+        font-size: 20px;
+        margin: 15px 0;
+        
+}
+
+.margin {
+    margin: 0px;
+}
+
+.blogdiv2 {
+    height: 300px;
+    width: 450px;
+    margin: 15px 0;
+
+}
+
+.secondsection {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+.lastsection {
+    display: inline-block;
+    margin-left: 20px;
+    
+}
+
+.learnmore {
+        color: green;
+        font-size: 24px;
+        display: block;
+        margin: 20px 0px;
+}
+
